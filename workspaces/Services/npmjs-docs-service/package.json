@@ -4,7 +4,7 @@
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "vc dev",
+    "start": "vc dev ./",
     "deploy": "vc deploy --prod"
   },
   "devDependencies": {

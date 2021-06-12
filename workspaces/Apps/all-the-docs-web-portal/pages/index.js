@@ -15,6 +15,11 @@ export default function Home() {
         <h1 className={styles.title}>
           Welcome to <a href="https://all-the-docs.theorylabs.dev">All The Docs</a>
         </h1>
+
+        <h2 className={styles.title}>
+          Stay awhile ;)
+        </h2>
+
       </main>
 
       <footer className={styles.footer}>

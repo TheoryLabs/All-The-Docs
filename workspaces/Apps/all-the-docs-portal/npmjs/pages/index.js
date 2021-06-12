@@ -1,10 +1,10 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-export default function Blog() {
+export default function NpmJSDocs() {
   return (
     <div>
-      <h3>This is our blog</h3>
+      <h3>T</h3>
       <ul>
         <li>
           <Link href="/post/1">
@@ -20,7 +20,7 @@ export default function Blog() {
       <a href="/">Home</a>
       <div>
         <Image
-          src="/blog/static/nextjs.png"
+          src="/npmjs/static/nextjs.png"
           alt="Next.js logo"
           width={200}
           height={160}

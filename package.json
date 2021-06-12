@@ -9,15 +9,15 @@
   	"workspaces/**/*"
   ],
   "scripts": {
-    "dev:apps:theorylabs-docs-portal": "yarn --cwd workspaces/Apps/theorylabs-docs-portal dev",
+    "dev:apps:all-the-docs-web-portal": "yarn --cwd workspaces/Apps/all-the-docs-web-portal dev",
   	"dev:services:npmjs-docs-service": "yarn --cwd workspaces/Services/npmjs-docs-service dev",
-  	"start:apps:theorylabs-docs-portal": "yarn --cwd workspaces/Apps/theorylabs-docs-portal start",
+  	"start:apps:all-the-docs-web-portal": "yarn --cwd workspaces/Apps/all-the-docs-web-portal start",
   	"start:services:npmjs-docs-service": "yarn --cwd workspaces/Services/npmjs-docs-service start",
-    "test:apps:theorylabs-docs-portal": "yarn --cwd workspaces/Apps/theorylabs-docs-portal test",
+    "test:apps:all-the-docs-web-portal": "yarn --cwd workspaces/Apps/all-the-docs-web-portal test",
   	"test:services:npmjs-docs-service": "yarn --cwd workspaces/Services/npmjs-docs-service test",
-    "build:apps:theorylabs-docs-portal": "yarn --cwd workspaces/Apps/theorylabs-docs-portal build",
+    "build:apps:all-the-docs-web-portal": "yarn --cwd workspaces/Apps/all-the-docs-web-portal build",
   	"build:services:npmjs-docs-service": "yarn --cwd workspaces/Services/npmjs-docs-service build",
-  	"deploy:apps:theorylabs-docs-portal": "yarn --cwd workspaces/Apps/theorylabs-docs-portal deploy",
+  	"deploy:apps:all-the-docs-web-portal": "yarn --cwd workspaces/Apps/all-the-docs-web-portal deploy",
   	"deploy:services:npmjs-docs-service": "yarn --cwd workspaces/Services/npmjs-docs-service deploy"
   }
 }

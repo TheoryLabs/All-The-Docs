@@ -1,4 +1,4 @@
-const { BLOG_URL } = process.env
+const { NPMJS_DOCS_URL } = process.env
 
 module.exports = {
   async rewrites() {
@@ -8,12 +8,12 @@ module.exports = {
         destination: `/:path*`,
       },
       {
-        source: '/blog',
-        destination: `${BLOG_URL}/blog`,
+        source: '/npmjs',
+        destination: `${NPMJS_DOCS_URL}/npmjs`,
       },
       {
-        source: '/blog/:path*',
-        destination: `${BLOG_URL}/blog/:path*`,
+        source: '/npmjs/:path*',
+        destination: `${NPMJS_DOCS_URL}/npmjs/:path*`,
       },
     ]
   },

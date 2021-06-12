@@ -1,10 +1,10 @@
 {
-  "name": "@theorylabs/all-the-docs-portal-home",
+  "name": "@theorylabs/all-the-docs-portal-npmjs",
   "version": "1.0.0",
   "private": true,
   "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev -p 4000",
     "build": "next build",
     "start": "next start",
     "deploy": "vc --prod"

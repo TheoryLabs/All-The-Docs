@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-  	"workspaces/**/*"
+  	"workspaces/**/*",
+  	"workspaces/**/**/*"
   ],
   "scripts": {
     "dev:apps:all-the-docs-web-portal": "yarn --cwd workspaces/Apps/all-the-docs-web-portal dev",

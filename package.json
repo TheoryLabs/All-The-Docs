@@ -1,0 +1,23 @@
+{
+  "name": "@theorylabs/all-the-docs",
+  "version": "1.0.0",
+  "description": "Monorepo providing various official documentation sources (i.e. for NpmJS: https://docs.npmjs.com) as RESTful API endpoints.",
+  "author": "Branden Dane (Dane@TheoryLabs.dev) <https://TheoryLabs.dev>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+  	"workspaces/**/*"
+  ],
+  "scripts": {
+    "dev:apps:theorylabs-docs-portal": "yarn --cwd workspaces/Apps/theorylabs-docs-portal dev",
+  	"dev:services:npmjs-docs-service": "yarn --cwd workspaces/Services/npmjs-docs-service dev",
+  	"start:apps:theorylabs-docs-portal": "yarn --cwd workspaces/Apps/theorylabs-docs-portal start",
+  	"start:services:npmjs-docs-service": "yarn --cwd workspaces/Services/npmjs-docs-service start",
+    "test:apps:theorylabs-docs-portal": "yarn --cwd workspaces/Apps/theorylabs-docs-portal test",
+  	"test:services:npmjs-docs-service": "yarn --cwd workspaces/Services/npmjs-docs-service test",
+    "build:apps:theorylabs-docs-portal": "yarn --cwd workspaces/Apps/theorylabs-docs-portal build",
+  	"build:services:npmjs-docs-service": "yarn --cwd workspaces/Services/npmjs-docs-service build",
+  	"deploy:apps:theorylabs-docs-portal": "yarn --cwd workspaces/Apps/theorylabs-docs-portal deploy",
+  	"deploy:services:npmjs-docs-service": "yarn --cwd workspaces/Services/npmjs-docs-service deploy"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "@theorylabs/npmjs-docs-service",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "dev": "echo 'TODO - DEV Script'",
+    "start": "vc dev",
+    "test": "echo 'TODO - TEST Script'",
+    "build": "echo 'TODO - BUILD Script'",
+    "deploy": "vc deploy --prod"
+  },
+  "devDependencies": {
+    "vercel": "^23.0.0"
+  }
+}
